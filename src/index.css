@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner_top{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+@font-face {
+  font-family: MeriendaBold;
+  src: url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&family=Inter:wght@600&family=Merienda:wght@700&family=Poppins&family=Roboto&display=swap');
+}
+.meriendaBold{
+  font-family: MeriendaBold;
+}
+
+.body_color{
+    background:#eff6e6;
+}
