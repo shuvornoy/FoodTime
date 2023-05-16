@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-      <div className="w-[1440px] mx-auto body_color">
-        <div className="navbar px-[100px]">
+      <div className="xl:w-[1440px] w-full mx-auto body_color">
+        <div className="navbar xl:px-[100px] lg:px-3">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -129,10 +129,12 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <a className="btn rounded-full w-[154px] h-[58px] text-[20px] font-500 bg-[#396C03] capitalize text-white border-none mr-[23px]">
-              Login
-            </a>
+          <div className="navbar-end hidden lg:block lg:flex items-center">
+     
+              <a className="btn rounded-full w-[154px] h-[58px] text-[20px] font-500 bg-[#396C03] capitalize text-white border-none mr-[23px]">
+                Login
+              </a>
+       
             <label
               tabIndex={0}
               className="btn btn-ghost btn-circle w-[60px] h-[60px] bg-[#396C03]"
